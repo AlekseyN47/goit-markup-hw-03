@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- HEAD -->
+    
+
+<!-- HEAD -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,99 +17,121 @@
     <title>Web Studio</title>
 </head>
 
+<!-- BODY -->
 <body>
-    <!-- NAVIGATION -->
-    <header>     
-        <nav>
-            <a href="./index.html" class="logo">
-                <span>Web</span>Studio
-            </a>
-            <ul class="list-items">
-                <li class="list"><a href="./index.html" class="nav link">Studio</a></li>
-                <li class="list"><a href="./portfolio.html" class="nav link">Portfolio</a></li>
-                <li class="list"><a href="" class="nav link">Contacts</a></li>
-            </ul>
-        </nav>  
-            <ul class="list-items">
-                <li class="list"><a href="mailto:info@devstudio.com" class="nav contacts"><span>info@devstudio.com</span></a></li>
-                <li class="list"><a href="tel:+110001111111" class="nav contacts"><span>+11 (000) 111-11-11</span></a></li>
-            </ul>
-</header>
-    
-    <main> 
+<!-- NAVIGATION -->
+    <header class="header-border">     
+        <div class="container header-container">
+                <div class="flex-header">
+                <nav class="flex-header">
+                    <a href="./index.html" class="logo">
+                        <span>Web</span>Studio
+                    </a>
+                    <ul class="list flex-header">
+                        <li class="list-item"><a href="./index.html" class="nav link">Studio</a></li>
+                        <li class="list-item"><a href="./portfolio.html" class="nav link">Portfolio</a></li>
+                        <li class="list-item"><a href="" class="nav link">Contacts</a></li>
+                    </ul>
+                </nav> 
+                    <ul class="list flex-header">
+                        <li class="list-item"><a href="mailto:info@devstudio.com" class="nav contacts"><span>info@devstudio.com</span></a></li>
+                        <li class="list-item"><a href="tel:+110001111111" class="nav contacts"><span>+11 (000) 111-11-11</span></a></li>
+                    </ul>
+                </div>
+        </div>
+</header> 
+   
+<!-- MAIN -->
+<main> 
+    <!-- HERO -->
         <section class="hero-section">
-            <h1 class="hero">
-                Effective Solutions
-                for Your Business
-            </h1>
-                <button type="button" class="btn">Order Service</button>
+            <div class="container hero-container">
+                <h1 class="hero">
+                    Effective Solutions
+                    for Your Business
+                </h1>
+                    <button type="button" class="btn">Order Service</button>
+            </div>
         </section>
+            <!-- OUR SKILLS -->
             <section>
-                    <h2 class="invisible">Our skills</h2>
-                    <ul>
-                        <li class="list">
-                            <h3 class="our-skills-header">Strategy</h3>
-                            <p class="our-skills-text">Our goal is to identify the business
-                                problem to walk away with the perfect and creative solution. </p>
+                   <div class="container">
+                        <h2 class="invisible">Our skills</h2>
+                        <ul class="list our-skills-flex" >
+                            <li class="list-item our">
+                                <h3 class="our-skills-header">Strategy</h3>
+                                <p class="our-skills-text">Our goal is to identify the business
+                                    problem to walk away with the perfect and creative solution.</p>
+                            </li>
+                            <li class="list-item our">
+                                <h3 class="our-skills-header">Punctuality</h3>
+                                <p class="our-skills-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                            </li>
+                            <li class="list-item our">
+                                <h3 class="our-skills-header">Diligence</h3>
+                                <p class="our-skills-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                            </li>
+                            <li class="list-item our">
+                                <h3 class="our-skills-header">Technologies</h3>
+                                <p class="our-skills-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                            </li>
+                        </ul>
+                   </div>
+            </section>
+            <!-- WORKS -->
+            <section>
+                <div class="container">
+                    <h2 class="works-header">What are we doing</h2>
+                    <ul class="list works-list">
+                        <li class="list-item works-image"><img src="images/img1.jpg" alt="Rectangle 71" width="360" height="300"></li>
+                        <li class="list-item works-image"><img src="images/img2.jpg" alt="Rectangle 71" width="360" height="300"></li>
+                        <li class="list-item works-image"><img src="images/img3.jpg" alt="Rectangle 71" width="360" height="300"></li>
+                    </ul>
+                </div>
+            </section>
+            <!-- OUR TEAM -->
+            <section class="our-team-bg">
+                <div class="container">
+                    <h2 class="our-team-header">Our Team</h2>
+                    <ul class="list our-team-list">
+                        <li class="list-item teammate-card">
+                            <img src="images/foto1.jpg" alt="teammate" width="264" height="260">
+                        <h3 class="teammates-title teammate-title-loc">Mark Guerrero</h3>
+                            <p class="teammate-description teammate-text">Product Designer</p>
                         </li>
-                        <li class="list">
-                            <h3 class="our-skills-header">Punctuality</h3>
-                            <p class="our-skills-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                        
+                        <li class="list-item teammate-card">
+                            <img src="images/foto2.jpg" alt="teammate" width="264" height="260">
+                        <h3 class="teammates-title teammate-title-loc">Tom Ford</h3>
+                            <p class="teammate-description teammate-text">Frontend Developer</p>
                         </li>
-                        <li class="list">
-                            <h3 class="our-skills-header">Diligence</h3>
-                            <p class="our-skills-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                        
+                        <li class="list-item teammate-card">
+                            <img src="images/foto3.jpg" alt="teammate" width="264" height="260">
+                        <h3 class="teammates-title teammate-title-loc">Camila Garcia</h3>
+                            <p class="teammate-description teammate-text">Marketing</p>
                         </li>
-                        <li class="list">
-                            <h3 class="our-skills-header">Technologies</h3>
-                            <p class="our-skills-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                        
+                        <li class="list-item teammate-card">
+                            <img src="images/foto4.jpg" alt="teammate" width="264" height="260">
+                        <h3 class="teammates-title teammate-title-loc">Daniel Wilson</h3>
+                            <p class="teammate-description teammate-text">UI Designer</p>
                         </li>
                     </ul>
+                </div>
             </section>
-            <section>
-                <h2 class="works-header">What are we doing</h2>
-                <ul>
-                    <li class="list"><img src="images/img1.jpg" alt="Rectangle 71" width="360" height="300"></li>
-                    <li class="list"><img src="images/img2.jpg" alt="Rectangle 71" width="360" height="300"></li>
-                    <li class="list"><img src="images/img3.jpg" alt="Rectangle 71" width="360" height="300"></li>
-                </ul>
-            </section>
-            <section>
-                <h2 class="our-team-header">Our Team</h2>
-                <ul>
-                    <li class="list">
-                        <img src="images/foto1.jpg" alt="teammate" width="264" height="260">
-                    <h3 class="">Mark Guerrero</h3>
-                        <p class="teammate-description">Product Designer</p>
-                    </li>
-                    
-                    <li class="list">
-                        <img src="images/foto2.jpg" alt="teammate" width="264" height="260">
-                    <h3 class="teammates-title">Tom Ford</h3>
-                        <p class="teammate-description">Frontend Developer</p>
-                    </li>
-                    
-                    <li class="list">
-                        <img src="images/foto3.jpg" alt="teammate" width="264" height="260">
-                    <h3 class="teammates-title">Camila Garcia</h3>
-                        <p class="teammate-description">Marketing</p>
-                    </li>
-                    
-                    <li class="list">
-                        <img src="images/foto4.jpg" alt="teammate" width="264" height="260">
-                    <h3 class="teammates-title">Daniel Wilson</h3>
-                        <p class="teammate-description">UI Designer</p>
-                    </li>
-                </ul>
-            </section>
-    </main>
+        </main>
+
+<!-- FOOTER -->
     <footer class="footer">
-        <a href="./index.html" class="footer-logo">
-            <span>Web</span>Studio
-        </a>
-        <p class="footer-text">
-            Increase the flow of customers and sales for your business with digital marketing & growth solutions.
-        </p>
+        <div class="container">
+            <a href="./index.html" class="footer-logo">
+                <span>Web</span>Studio
+            </a>
+            <p class="footer-text">
+                Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+            </p>
+        </div>
     </footer>
 </body>
 </html>
