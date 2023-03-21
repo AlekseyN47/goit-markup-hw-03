@@ -12,6 +12,11 @@
   box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color);
+}
+
 .header-border {
     border-bottom: #E7E9FC 1px solid;
 }
@@ -61,10 +66,6 @@
     overflow: hidden;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--main-color);
-}
 
 /**---logo---*/
 .logo {
@@ -194,9 +195,7 @@ background-color: #404BBF;
     text-transform: capitalize;
     color: var(--main-color);
     margin-bottom: 72px;
-    padding-top: 120px;
-    padding-right: 402px;
-    padding-left: 403px;
+    margin-top: 120px;
     white-space: nowrap;
 }
 
