@@ -108,6 +108,8 @@ color: var(--interactive-elements);
 /* ---hero--- */
 .hero-section {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero {
@@ -117,7 +119,9 @@ color: var(--interactive-elements);
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    padding: 188px 316px 48px;
+    width: 496px;
+    /* padding: 188px 316px 48px; */
+    align-self: center;
 }
 
 .hero-container {
@@ -142,9 +146,10 @@ color: var(--interactive-elements);
     border: 0px;
     
     cursor: pointer;
-    margin-bottom: 188px;
+    /* margin-bottom: 188px; */
     margin-left: 480px;
     margin-right: 479px;
+    margin-top: 48px;
     display: flex;
     padding: 16px 32px;  
     white-space: nowrap;
@@ -178,7 +183,11 @@ background-color: #404BBF;
 
 .our-skills-flex {
     display: flex;
+}
+
+.our-skills-section {
     padding-top: 120px; 
+    padding-bottom: 120px;
 }
 
 .our {
@@ -186,6 +195,11 @@ background-color: #404BBF;
 }
 
 /* ---works--- */
+
+.works-section {
+    padding-bottom: 120px;
+}
+
 .works-header {
     font-weight: 700;
     font-size: 36px;
@@ -195,18 +209,22 @@ background-color: #404BBF;
     text-transform: capitalize;
     color: var(--main-color);
     margin-bottom: 72px;
-    margin-top: 120px;
     white-space: nowrap;
 }
 
 .works-list {
     display: flex;
-    gap: 24px;
-    padding-bottom: 120px;
+    gap: 24px;    
+
 }
 
 .works-image {
     width: calc((100% - 48px) / 3);
+}
+
+.team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-team-bg {
@@ -223,9 +241,6 @@ background-color: #404BBF;
     text-transform: capitalize;
     color: var(--main-color);
     margin-bottom: 72px;
-    padding-top: 120px;
-    padding-right: 483px;
-    padding-left: 483px;
     white-space: nowrap;
 }
 
@@ -240,7 +255,8 @@ background-color: #404BBF;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-color);
-
+    white-space: nowrap;
+    margin-bottom: 8px;
 }
 
 .teammate-description {
@@ -257,25 +273,25 @@ background-color: #404BBF;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    margin-bottom: 120px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72) / 4);
 }
 
-.teammate-title-loc {
-    padding: 32px 65px 8px;
-    white-space: nowrap;
-}
-
-.teammate-text {
-    padding-bottom: 32px;
+.teammate-text-paddings {
+    padding-bottom: 32px;  
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* ---footer--- */
 .footer {
     background: var(--main-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -289,7 +305,6 @@ background-color: #404BBF;
     letter-spacing: 0.03em;
     margin-bottom: 16px;
     display: flex;
-    padding-top: 100px;
 }
 
 .footer-logo > span {
@@ -302,8 +317,7 @@ color: var(--interactive-elements);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
-    padding-bottom: 100px;
-    padding-right: 864px;
+    width: 264px;
 }
 
 /* portfolio nav btn */
@@ -342,8 +356,12 @@ color: var(--interactive-elements);
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding-top: 96px;
     margin-bottom: 72px;
+}
+
+.portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .portfolio-list {
@@ -351,7 +369,6 @@ color: var(--interactive-elements);
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    padding-bottom: 120px;
     
 }
 
@@ -373,8 +390,7 @@ color: var(--interactive-elements);
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
-    align-self: flex-start;
-    margin: 8px 0px 32px 16px;
+    margin: 8px 0px 0px 0px;
     
 }
 
@@ -384,7 +400,13 @@ color: var(--interactive-elements);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-color);
-    margin-top: 32px;
-    margin-left: 16px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.project-card-text-paddings {
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-bottom:  32px;
     align-self: flex-start;
 }
