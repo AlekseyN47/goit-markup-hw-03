@@ -194,6 +194,10 @@ background-color: #404BBF;
     margin-right: 24px;
 }
 
+.no-mr-right {
+    margin-right: 0;
+}
+
 /* ---works--- */
 
 .works-section {
